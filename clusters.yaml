@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: athletics15-hasura
+  data: null
+  kubeContext: athletics15
+  name: athletics15
