@@ -1,0 +1,4 @@
+- args:
+    sql: ALTER TABLE "bill" ADD FOREIGN KEY ("paid_by_user_id") REFERENCES "Users"
+      ("user_id")
+  type: run_sql
